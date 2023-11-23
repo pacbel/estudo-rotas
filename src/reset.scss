@@ -1,0 +1,50 @@
+// Reset SCSS
+
+// Box-sizing
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+// Remove margens e paddings padrão
+body, h1, h2, h3, h4, h5, h6, p, margin, figure, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+// List reset
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+// Remove estilos padrão de links
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// Remover decoração de lista para listas dentro de links
+a > ul, a > ol {
+  padding: 0;
+  list-style: none;
+}
+
+// Remover decoração de lista para listas dentro de listas
+li > ul, li > ol {
+  margin: 0;
+}
+
+// Remove decoração de lista para listas aninhadas
+ul ul, ol ol, ul ol, ol ul {
+  list-style-type: none;
+}
+
+// Remover foco padrão
+a:focus, button:focus {
+  outline: none;
+}
